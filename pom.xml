@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://43.205.216.187:9980/jj/repository/jj-1008/</url>
+	      <url>http://65.2.151.188:9980/jj/repository/canarabank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://43.205.216.187:9980/jj/repository/jj-snap-1008/</url>
+	      <url>http://65.2.151.188:9980/jj/repository/canarabank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

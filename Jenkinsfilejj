@@ -22,5 +22,7 @@ stage('DeployAppInTomcatserver'){
         sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.6.87:/opt/apache-tomcat-9.0.98/webapps/"
 }
 }
+stage('slacknotification'){
+slackSend channel: '#devops', message: "Successful completion of ${env.JOB_NAME}", teamDomain: 'jj-1008', tokenCredentialId: 'slack1'
 
 }
